@@ -5,6 +5,7 @@
   <TypeSignature Language="VB.NET" Value="Public Delegate Function ObjectiveCMarshal.UnhandledExceptionPropagationHandler(exception As Exception, lastMethod As RuntimeMethodHandle, ByRef context As IntPtr) As delegate* unmanaged&lt; As IntPtr, Void&gt; " />
   <TypeSignature Language="F#" Value="type ObjectiveCMarshal.UnhandledExceptionPropagationHandler = delegate of Exception * RuntimeMethodHandle * nativeint -&gt; delegate* unmanaged&lt;nativeint, unit&gt;" />
   <TypeSignature Language="C++ CLI" Value="public: delegate delegate* unmanaged&lt;IntPtr , void&gt; ^ ObjectiveCMarshal::UnhandledExceptionPropagationHandler(Exception ^ exception, RuntimeMethodHandle lastMethod, [Runtime::InteropServices::Out] IntPtr % context);" />
+  <DevLang>C#<DevLang>
   <AssemblyInfo>
     <AssemblyName>System.Runtime.InteropServices</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
